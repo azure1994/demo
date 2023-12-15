@@ -1,0 +1,305 @@
+GIT:
+-----
+Git is version control system tool. ---https://github.com                            
+git hub is remote its access the internet.
+
+
+TOOLS:
+----------
+git hub-- two ytpes
+bitbucket
+azure rpos
+aws case commit
+
+
+USERNAME:-azurebala1995
+
+
+Respository:-
+---------------
+coles_respository
+url:- https://github.com/cole-repository.git
+---
+there aare two types:public and private
+
+commands:
+---------
+git clone
+git status
+git add
+git commit -m "message"
+git push origin branchname
+git checkput branchname
+git checkou -b branchname
+git origin master
+git checkou -b newbranchname
+
+GIT REPOSITORY:-
+-----------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+how to push the code from Local to Remote repository:-
+------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+BRANCHING:-
+----------
+git branch --- To list the no of branches
+**git checkout -b newbranchname -----to create new branch
+git checkout branchname ---To switch one branch to amoter branch
+**git push origin ---Delete branchname --To delete the remote branch
+
+
+
+how to integrate git hub repository with Genkens?
+
+how many ways you have to automate the genkens buid process----> using Git webhook
+\
+
+
+
+
+Build Tools
+------------
+In current project we are using maven as a Build tool.
+Here we are using the POM.XML for building the source code.
+Maven ha intalling the Windows and Linux ope.
+
+Windows Installation Steps;
+----------------------------
+Go to This PC
+Rigt click properties
+down arrow mark advanced settins
+down arraow mark
+set system varible and user variable
+
+once you set the enviroment variable
+ open command promt
+run the command "mvn -version".
+
+Manven installation in LINUX:
+----
+login to server
+go to loaction "Vi ~/.bashrc"
+down arrow set serverpath
+source ~/.bashrc
+down arrow mvn -version
+
+
+
+
+
+MAVEN:- Its a buid tool
+Build:-creating the package
+package:-collection of .class files
+.classfiles:-After compling the java code will get output as .classfiles
+packageformat:-.jar,.war,.rpm,.ear,.zip
+
+
+MAVEN GOALS/COMMANDS:-
+--------------------
+mvn validate
+mvn compile
+mvn test
+mvn package
+mvn verify
+mvn install
+mvn deploy
+
+mvn clean
+
+
+
+MAVEN REPOSITORY:-
+------------------
+maven have 3 tyPes of repository
+
+1.local repository
+2.m2 repository/central repository***
+3.remote repository/backup artifactory
+
+
+
+POM.XML:-
+---------
+POM means Project object model.
+
+<group id>
+<artifactid>
+<version>
+<packaging>
+
+
+
+
+JENKINS:-
+--------
+Job:-
+1.Build job---to create the package
+2.Deployment job--installthe package on remote server
+3.pipeline job---CI/CD (Build and deployment)
+
+build tool:
+inputs-->gitrepository URL and Maven goals
+
+Deployment job--> remote server details and package details
+
+copy the Maven, Javapath and set in Jenkins-->manage jenkins-->glaobal tool confiiration-->cat ~/.bashrc
+
+
+default loaction in jenkins in linux:- /var/lib/jenkins
+
+default location of maven in jenkins server:-/vaR/LIB/JENKINS/.M2
+
+what is the jenkins workspace location:-/var/lib/jenkins/workspace
+what is the location in jenkins:-/var/lib/jemkins/workspace/jobname/target
+
+
+
+**/*.jar
+**/*.war
+
+
+Q.how to i ntergrate nexus with jenkins or in your project you people are storing the packages?\
+1.In current project we are using nexus repository for backup purpose.
+2.once jenkins create the output that op going to store nexus resp
+3. in my project we integrated nexus with jenkins.Every time when wec click on buikld now on jenkins will upload the package and jenkind will upload the package in to nexus resp.
+/
+how many ways you have to automate jenkins process?
+
+1.jenkins poll SCM
+2.jenkin buid periodically
+3.GIT Webhook
+
+LINUX Crontab format:-
+---------------------
+1.Crontab will use of scheduling the any activity
+
+
+* * * * * *
+| | | | | | 
+| | | | | +-- Year              (range: 1900-3000)
+| | | | +---- Day of the Week   (range: 1-7, 1 standing for Monday)
+| | | +------ Month of the Year (range: 1-12)
+| | +-------- Day of the Month  (range: 1-31)
+| +---------- Hour              (range: 0-23)
++------------ Minute            (range: 0-59)
+
+
+1.jenkins poll SCM:-
+------------------------
+When developer change the code or when developer commit new change automatically jenkins will run the job.
+
+poll scm will work based timer means when you set the timer 60sec it wait till 60sec once reach then only build will run
+
+but git webhook won't wait for timer when the dev team push the code the same time build will run from jenkins. 
+
+
+
+
+USER PERMISSIONS:-
+------------------
+Roles assig the 
+
+
+
+CONFIGURATION MANAGEMENT TOOLS:-
+-------------------------------
+1.puppet
+2.chef
+3.Ansible
+4.rundeck
+
+
+INFRASTRUCTURE AS A CODE:-
+--------------------------
+1.Terraform(Openstack)
+2.ARM template(Azure)
+3.Cloud formation template(AWS)
+
+
+
+
+PUPPET (VS) CHEF (VS) ANSIBLE
+
+PUPPET WORKFLOW:-
+----------------
+
+
+
+
+
+
+
+
+
+set the numbers command is:- esc :set nu
+
+
+remive the line esc :shift D
+
+
+
+ANSIBLE:-
+----------
+PLAYBOOK:-
+----------
+group of tasks or collection of tasks
+
+
+syntax:-
+--------
+
+
+modules:
+yum,pip,pip3,bot,service,copy,move,command,rpm,conda,lineinfile,block,ssh,user,gropu,shell,apt,tag,register,url_get,items
+
+
+
+ANSIBLE PLAY BOOK EX:
+
+----
+ -HOST: LOCALHOST/REMOTE
+  BECOME: YES
+  TASK:
+  ------------
+---------------
+---------------
+
+
+YUM:
+  -JAVA
+
+RPM: 
+  -JAVA
