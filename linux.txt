@@ -1,0 +1,94 @@
+: sudo su -> to login as root user will user --- sudo su
+
+Folder creation commands
+------------------------
+
+mkdir -> create folder
+
+ex: mkdir demo
+
+ls -> it is used to check list of folders or files
+
+ls -lart -> it is used to check list of folders or files with hidden
+
+cd - to open the folder
+
+pwd -> to check location or path
+
+cd .. -> come one step back from current location
+
+cd ../.. -> come two steps back from current location
+
+File creation commands
+----------------------
+
+touch -> to create file
+
+ex: touch devops
+
+vi -> to edit the file or to open file
+
+i -> INSERT mode (to write anything)
+
+esc :wq! -> Save and quit from file
+
+esc :q! -> without Save and quit from file
+
+cat -> to view the file 
+
+
+package commands
+----------------
+
+command not found -> whatever command your trying to run from centos which is not present for that we need to install that command using below command.
+
+yum install wget -y -> install the wget package in linux
+
+* -> select all
+
+rm -rf -> used to delete files of folders    ---rf:forceable remove
+
+rm -rf demo
+ Linux commands
+1.mkdir -> To create the folders
+ex: mkdir test1
+2.ls -> to check list of folders or files
+3. ls -lart -> to check list of folders or files with hidden files also
+4. pwd -> to check current path
+5. cd -> to go inside folder
+6. cd ..  -> one step back from current location
+7. cd ../.. -> Two steps back from current location
+8. cd ../../.. -> Three steps back from current location
+9. rm -rf -> to delete the files or folders
+10. touch -> to create the file
+11. vi (or) vim -> to edit the files
+12. esc :wq! -> to save quit from file
+13. esc :q! -> with out save quit from file
+14. cat -> to view the content inside file.
+15. sudo su -> login as root account
+16. wget -> webget command used to download package from internet
+17. yum -> to install the packages will use yum command
+18. copy -> copy the folder or file with in server.
+19.scp -> copy the file or folder from one server to other server.
+20. ssh -> command used for connect the servers.
+21. chmod -> used to change the user permission
+22. crontab -> used for schedule the jobs.
+
+
+
+package managers:
+------------------
+yum 
+pip
+pip3
+boto
+helm
+
+cat --- show the content of file
+
+
+
+ipconfig ---to check windows serverip
+ip -r ----to check linux server ip
+hostname -i  --to check linux server ip
+
